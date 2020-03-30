@@ -13,13 +13,11 @@ h5{
     color:#434b5d;
     font-weight:bold;
     position: relative;
-    left:4%;
-    
+    left:4%;   
 }
     @media screen and (max-width: 780px) {
      width:100%;
-      }
-
+   }
 `;
 
 export const IMAGE =styled.div`
