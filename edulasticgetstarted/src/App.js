@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './nav/nav';
 import {GlobalStyle} from './Appcss'
-import Section from './section/section';
+import Section from './section2/section';
 
 
 
