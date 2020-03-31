@@ -16,7 +16,7 @@ export const Section = ({className}) => {
            
             <A href="#">EARLY MATH</A>
             <A href="#">ARTHMETIC</A>
-            <A href="#">PRE ALGEBRA</A>
+            <A href="#">PRE - ALGEBRA</A>
             <A href="#">ALGEBRA 1</A>
             </DIV>
             <DIV>
