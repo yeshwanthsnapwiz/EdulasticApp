@@ -24,9 +24,7 @@ html,body{
    } 
 }
 .ant-layout-content {
-    display:flex;
-    flex-direction:row;
-    width:100%;
+   
     min-height: 600px;
     @media screen and (max-width: 780px) {
     flex-wrap:wrap-reverse;

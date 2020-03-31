@@ -1,17 +1,19 @@
 import React from 'react'
-import {INFORMATION,IMAGE,IMG,DIV,A} from './sectioncss'
+import {IMG,DIV,A,INFORMATION,H5} from './sectioncss'
 import { Layout } from 'antd';
+import { Row, Col } from 'antd';
 import Image from '../Images/background1.png';
-const {Content } = Layout;
+
 
 export const Section = ({className}) => {
     return (
        
-        <Content>
-            
-          <INFORMATION>
+   
+      <Row align="middle" className="ant-layout-content ">
+       <Col push={1} span={24} md={12} >
+        
             <DIV>
-            <h5>Math</h5>
+            <H5>Math</H5>
             <DIV>
            
             <A href="#">EARLY MATH</A>
@@ -28,7 +30,7 @@ export const Section = ({className}) => {
             </DIV>
             <DIV>
             <br></br>
-            <h5>Math by Grade</h5>
+            <H5>Math by Grade</H5>
             <DIV>
             <A href="#">PRESCHOOL</A>
             <A href="#">KINDERGARTEN</A>
@@ -47,13 +49,15 @@ export const Section = ({className}) => {
             <A href="#">HIGH SCHOOL</A>
             </DIV>
             </DIV>
-          </INFORMATION>
+           
+        </Col>
 
-          <IMAGE>
+          <Col span={24} md={12}>
           <IMG src={Image}></IMG>
-          </IMAGE>
+          </Col>
 
-        </Content>
+        </Row>
+    
        
     )
 }

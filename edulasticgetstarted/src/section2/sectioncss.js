@@ -1,38 +1,31 @@
 import styled from 'styled-components';
 
 export const INFORMATION =styled.div`
-    width:50%;
     display:flex;
     flex-direction:column;
-    justify-content:center; 
-     align-self:center;
-    margin:auto;
-h5{
+    background-color:red;
+`;
 
+
+export const H5 =styled.h5`
     font-size:32px;
     color:#434b5d;
     font-weight:bold;
     position: relative;
-    left:4%;   
-}
-    @media screen and (max-width: 780px) {
-     width:100%;
-   }
-`;
-
-export const IMAGE =styled.div`
-  margin:auto;
+  
 `;
 
 export const IMG =styled.img`
-width:100%;
-height:100%;
+    width:100%;
+    height:100%;
  `;
+
+
 export const DIV =styled.div`
-  width:94%;
-  align-self:center;
-  position:relative;
-  left:4%;
+    width:100%;
+    align-self:center;
+    position:relative;
+
 `;
 
 export const A =styled.a`

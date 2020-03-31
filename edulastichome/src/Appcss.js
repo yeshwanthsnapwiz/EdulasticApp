@@ -23,6 +23,7 @@ html,body{
         border-bottom:1px solid lightgrey;
    } 
 }
+
 .ant-layout-content {
     display:flex;
     width:100%;
@@ -31,4 +32,15 @@ html,body{
       flex-wrap:wrap-reverse;
    } 
 }
+
+.getstarted {
+    width:130px;
+    height:40px;
+    color:white;
+    border:none;
+    background-color:#4bb495;
+&:hover{
+    opacity:0.8;
+}
+
 `;

@@ -9,7 +9,7 @@ function App() {
     <div>
     <GlobalStyle></GlobalStyle>  
     <Nav></Nav>
-  <Section></Section>
+    <Section></Section>
   </div>
   );
 }
