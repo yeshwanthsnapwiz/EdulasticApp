@@ -11,7 +11,8 @@ export const Section = ({className}) => {
             
           <CAPTION>
           <h1>Practice. Assess. <br></br>Improve.</h1>
-          <p><span style={{fontWeight:'bold'}}>SparkEd </span>is a learning companion on a simple idea: <br></br> students learning best by doing</p>
+          <p><span style={{fontWeight:'bold'}}>SparkEd
+          </span>is a learning companion on a simple idea: <br></br> students learning best by doing</p>
           <Button className="getstarted">GET STARTED</Button>
           </CAPTION>
 
