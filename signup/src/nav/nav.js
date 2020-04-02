@@ -1,75 +1,61 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import Logo from '../Images/logo.jpg'
-import {LOGO,MENU,LI,IMG,LOGIN,SIGNUP,NAV,Label,A,COLLAPSEMENU,SIGNUPB,Checkbox,NAVWRAP }from './navcss';
-import { Layout,Button} from 'antd';
-const { Header } = Layout;
+import Logo from '../Images/logo.jpg';
+import {LOGO,LI,SIGNUP,Label,COLLAPSEMENU,Checkbox,Ul,UL }from './navcss';
+import {Button, Row,Col} from 'antd';
+
 
 export const Nav = ({className}) => {
     return (
- 
-<NAVWRAP>
+<div>
 
-   {/*Navbar*/}
+<Row className="menu">
 
-    <Header>
+   <Col span={11} md={7}  >
+   <LOGO src={Logo} ></LOGO>
+   </Col> 
 
-   {/*LOGO*/}
-
-    <IMG>
-
-    <LOGO src={Logo} ></LOGO>
-
-    </IMG>
-   
-    <NAV>
-
-    {/*Menu*/}
-
-    <MENU>
-
+   <Col span={0} md={9}>
+    <Ul>
     <LI><a href="#">COURSES</a></LI>
     <LI><a href="#">STUDENTS</a></LI>
     <LI><a href="#">TEACHERS</a></LI>
     <LI><a href="#">PRICING</a></LI>
+    </Ul>
+   </Col>
 
-    </MENU>
+   <Col span={8} md={7}>
 
-   <LOGIN>
+    <UL>
+    <SIGNUP className="login"><a href="#">Already have an account?</a></SIGNUP>
+    <Button className="signup">SIGNUP</Button>
+    </UL>
+   </Col>
 
-   <SIGNUP className="login"><a href="#">Already have an account?</a></SIGNUP>
-   <Button className="signup">LOGIN</Button>
-
-   </LOGIN>
-
-     {/*toggle icon*/}
-
-   <Label for="toggle" className="barsa" >         
+   <Col span={5} md={2}>
+    <Label htmlFor="toggle" className="barsa" >         
     <li className="bar1"></li>
     <li className="bar2"></li>
     < li className="bar3"></li>
-   </Label> 
+    </Label>
+  </Col>
 
-   </NAV>
-  
+   </Row>
 
-   </Header>
-   
-   {/*collpasemenu*/}
-   
-   <Checkbox type="checkbox" className="toggle" id="toggle" />
+    <div>
 
-   <COLLAPSEMENU className="collapsemenu">
+  <Checkbox type="checkbox" className="toggle" id="toggle" />
+  <COLLAPSEMENU className="menu-collapse">
+    <li><a href="#">COURSES</a></li>
+    <li><a href="#">STUDENTS</a></li>
+    <li><a href="#">TEACHERS</a></li>
+    <li><a href="#">PRICING</a></li>
+    <li><a href="#">LOGIN</a></li>
+  </COLLAPSEMENU>
 
-    <A>COURSES</A>
-    <A> STUDENTS</A>
-    <A>TEACHERS</A>
-    <A>PRICING</A>
+    </div>
 
-   </COLLAPSEMENU>
-
-
-</NAVWRAP>
+  </div>
    
  
      

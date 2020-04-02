@@ -18,7 +18,7 @@ html,body{
     color: rgba(0, 0, 0, 0.65);
     line-height: 64px;
     background:white;
-    @media screen and (max-width: 780px) {
+    @media screen and (max-width: 800px) {
         border-top:1px solid lightgrey;
         border-bottom:1px solid lightgrey;
    } 
@@ -28,8 +28,8 @@ html,body{
     display:flex;
     width:100%;
     min-height: 600px;
-    @media screen and (max-width: 780px) {
-      flex-wrap:wrap-reverse;
+    @media screen and (max-width: 800px) {
+    flex-wrap:wrap-reverse;
    } 
 }
 

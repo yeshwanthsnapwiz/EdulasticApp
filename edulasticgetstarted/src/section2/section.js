@@ -56,7 +56,7 @@ export const Section = ({className}) => {
           <IMG src={Image}></IMG>
           </Col>
 
-        </Row>
+      </Row>
     
        
     )

@@ -1,47 +1,43 @@
 import React from 'react'
-import {CAPTION,ACCOUNT,MEMBERS,DIV,Button,Background} from './sectioncss'
-import studenta from '../Images/student.jpeg';
-import studentb from '../Images/teacher.jpeg';
-import studentc from '../Images/admin.jpeg';
-import { Layout} from 'antd';
-const {Content } = Layout;
+import {Button,Background} from './sectioncss'
+import '../App.css';
+import {Row,Col} from 'antd';
 
 export const Section = ({className}) => {
     return (
        
-        <Content>
+        <Row className="ant-layout-content " >
 
             {/*Heading*/}
-          <CAPTION>
+          <Col className="caption">
           <h1>Get started with free account!</h1>
           <p>Join the growing community of teachers who are using Edulastic assessment</p><p> to promote learning</p>
-         
-          </CAPTION>
+          </Col>
 
-           <ACCOUNT>
-           <div>
-           <h1>Create Your Free Account</h1>
-           </div>
-
+          <Row justify="center">
+           <h2>Create Your Free Account</h2>
+           </Row>
+    
              {/*Accounts*/}
 
-           <MEMBERS>
-           <DIV img={studenta}>
+           <Row className="card" justify="center" align="middle" >
+           
+           <Col  align="middle" span={15} md={7} className="student">
            <Button>STUDENT</Button>
-           </DIV>
-           <DIV img={studentb}>
+           </Col>
+           <Col align="middle" span={15}  md={7} className="teacher">
            <Button>TEACHER</Button>
-           </DIV>
-           <DIV  img={studentc}>
+           </Col>
+           <Col align="middle" span={15}  md={7} className="admin">
            <Button>ADMINISTRATOR</Button>
-           </DIV>
-           </MEMBERS>
-         
-           </ACCOUNT>
-           <Background>
-           </Background>
+           </Col>
+           </Row>
 
-        </Content>
+
+          <Background>
+          </Background>
+
+        </Row>
        
     )
 }
