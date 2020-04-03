@@ -1,6 +1,6 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import Logo from '../Images/logo.jpg';
+import Logo from '../Images/logo.svg';
 import {LOGO,LI,SIGNUP,Label,COLLAPSEMENU,Checkbox,Ul,UL }from './navcss';
 import {Button, Row,Col} from 'antd';
 

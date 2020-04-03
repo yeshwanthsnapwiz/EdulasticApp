@@ -12,6 +12,7 @@ html,body{
 *{
     box-sizing:border-box;
 }
+
 .ant-layout-header {
     display:flex;
     justify-content:space-between;
@@ -33,41 +34,17 @@ html,body{
 display:flex;
 background-color:red;
 flex-direction:column;
-height:550px;
-background:linear-gradient(#014788 40%, white 40%);
-border:1px solid lightgrey;
-border-radius:10px;
+height: 649px;
+top: 50px;
+border: 1px solid #DDDDE6;
+border-radius: 10px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
 @media screen and (max-width: 780px) {
 position: relative;
 top:20px;
   }
 }
 
-.input{
-width:100%;
-height:35px;
-background-color:whitesmoke;
-color:rgb(0,0,0,0.6);
-margin-top:15px;
-border:1px solid #e7e7e8;
-}
-
-
-.ant-input{
-    background-color:whitesmoke;
-    border:none;
-    outline:none;
-    &::placeholder{
-    font-size:12px;
-    font-weight:bold;
-    color:rgb(0,0,0,0.3);
-    }
-   
-  .ant-input:placeholder-shown {
-   margin-left:10px;
-}
-
-
-.
 `;
 
