@@ -55,12 +55,12 @@ export const Section = ({className}) => {
 
          <Title className="h2" level={2}>Or create your account </Title>
          
-         <InputGroup> <Label htmlFor="classcode">class code (Provided by your Teacher)</Label><br></br>
+         <InputGroup> <Label htmlFor="classcode">class code <span style={{textTransform:"capitalize"}}> (Provided by your Teacher)</span></Label><br></br>
          <Hashtag src={PREFIXTAG} style={{top:"30px",left:"10px"}}></Hashtag><CustomInput  className="input" align="middle" type="text" placeholder="Insert your class code" name="classcode"  /></InputGroup>
         <InputGroup>   <Label htmlFor="name">Name</Label><br></br>
         <Hashtag src={PREFIXUSER} style={{top:"32px",left:"8px"}}></Hashtag> <CustomInput className="input" align="middle" type="text" placeholder="Insert your name" name="name"  /></InputGroup>
-         <InputGroup>  <Label htmlFor="input">user / email</Label><br></br>
-         <Hashtag src={PREFIXMAil} style={{top:"28px",left:"12px"}}></Hashtag><CustomInput className="input" align="middle" type="email" placeholder="Insert your email" name="name" /></InputGroup>
+         <InputGroup>  <Label htmlFor="input">username / email</Label><br></br>
+         <Hashtag src={PREFIXMAil} style={{top:"28px",left:"12px"}}></Hashtag><CustomInput className="input" align="middle" type="email" placeholder="Insert your username or email" name="name" /></InputGroup>
          <BUTTON>SIGN UP AS STUDENT</BUTTON>
          </FORM>
 

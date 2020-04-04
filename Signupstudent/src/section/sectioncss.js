@@ -4,7 +4,7 @@ import {Input ,Button} from 'antd';
 export const DIV =styled.div` 
   display:flex;
   justify-content:center;
-  width:70%;
+  width:80%;
   text-align:left;
   flex-direction:column;
   .h5{
@@ -30,7 +30,7 @@ export const P =styled.p`
 
 export const SIGNUP =styled.div` 
   display:flex;
-  width:80%;
+  width:90%;
   justify-content:space-between;
   position: relative;
   top:4px;
