@@ -1,6 +1,5 @@
 import React from 'react'
-import {IMG,DIV,A,INFORMATION,H5} from './sectioncss'
-import { Layout } from 'antd';
+import {IMG,DIV,A,H5} from './sectioncss'
 import { Row, Col } from 'antd';
 import Image from '../Images/background1.png';
 

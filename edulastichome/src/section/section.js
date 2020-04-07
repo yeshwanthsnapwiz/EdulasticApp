@@ -1,31 +1,31 @@
 import React from 'react'
-import {H1,P} from './sectioncss'
+import {H1,P,IMG} from './sectioncss'
 import '../App.css';
-import { Layout ,Button} from 'antd';
+import {Button} from 'antd';
 import { Row, Col } from 'antd';
-const {Content } = Layout;
+import Image from '../Images/background1.png';
 
 export const Section = ({className}) => {
     return (
        
-        <Content>
+       
            
-          <Row  align="middle"  className="ant-layout-content ">
+          <Row  justify="middle" className="ant-layout-content ">
 
-          <Col push={1}span={24} md={12}>
-          <H1>Practice. Assess. <br></br>Improve.</H1>
+          <Col  align="middle" span={24} md={12}>
+          <H1>Practice.<br></br> Assess.Improve.</H1>
           <P><span style={{fontWeight:'bold'}}>SparkEd
-          </span>is a learning companion on a simple idea: <br></br> students learning best by doing</P>
-          <Button className="getstarted">GET STARTED</Button>
+          </span> is a learning companion built on a simple idea: <br></br> students learning best by doing</P>
+          <Button  className="getstarted">GET STARTED</Button>
           </Col>
 
-          <Col className="bg" span={24} md={12}>
-  
+          <Col span={24} md={12}>
+          <IMG src={Image}></IMG>
           </Col>
           
          </Row>
          
-        </Content>
+      
        
     )
 }

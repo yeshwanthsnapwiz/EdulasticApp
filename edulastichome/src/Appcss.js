@@ -6,41 +6,39 @@ html,body{
     padding:0px;
     overflow-x:hidden;
     width:100%;
+    height:650px;
+
 }
 *{
     box-sizing:border-box;
 }
-.ant-layout-header {
-    display:flex;
-    justify-content:space-between;
-    position:sticky;
-    height: 64px;
-    color: rgba(0, 0, 0, 0.65);
-    line-height: 64px;
-    background:white;
-    @media screen and (max-width: 800px) {
-        border-top:1px solid lightgrey;
-        border-bottom:1px solid lightgrey;
-   } 
-}
 
-.ant-layout-content {
-    display:flex;
-    width:100%;
-    min-height: 600px;
-    @media screen and (max-width: 800px) {
-    flex-wrap:wrap-reverse;
-   } 
-}
 
 .getstarted {
     width:130px;
     height:40px;
+    position:absolute;
+    left:30px;
+
     color:white;
     border:none;
-    background-color:#4bb495;
-&:hover{
+    background-color:#1AB395;
     opacity:0.8;
+    
+
+    
+&:hover{
+    background-color:#1AB395;
+    color:white;
+    opacity:1;
+}
+}
+.ant-layout-content
+{
+    @media screen and (max-width: 780px) {
+       display:flex;
+       flex-wrap:wrap-reverse;
+   } 
 }
 
 `;

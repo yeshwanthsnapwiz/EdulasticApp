@@ -23,11 +23,12 @@ html,body{
         border-bottom:1px solid lightgrey;
    } 
 }
-.ant-layout-content {
-   
-    min-height: 600px;
+.ant-layout-content
+{
     @media screen and (max-width: 780px) {
-    flex-wrap:wrap-reverse;
-   }
+       display:flex;
+       flex-wrap:wrap-reverse;
+   } 
 }
+
 `;
