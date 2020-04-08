@@ -17,9 +17,6 @@ html,body{
 .getstarted {
     width:130px;
     height:40px;
-    position:absolute;
-    left:30px;
-
     color:white;
     border:none;
     background-color:#1AB395;
@@ -35,6 +32,7 @@ html,body{
 }
 .ant-layout-content
 {
+    height:770px;
     @media screen and (max-width: 780px) {
        display:flex;
        flex-wrap:wrap-reverse;

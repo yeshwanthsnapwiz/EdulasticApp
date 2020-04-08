@@ -25,6 +25,7 @@ html,body{
 }
 .ant-layout-content
 {
+    height:770px;
     @media screen and (max-width: 780px) {
        display:flex;
        flex-wrap:wrap-reverse;

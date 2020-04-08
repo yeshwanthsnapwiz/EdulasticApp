@@ -1,6 +1,7 @@
 import React from 'react'
 import {IMG,DIV,A,H5} from './sectioncss'
 import { Row, Col } from 'antd';
+import '../App.css';
 import Image from '../Images/background1.png';
 
 
@@ -51,8 +52,8 @@ export const Section = ({className}) => {
            
         </Col>
 
-          <Col span={24} md={12}>
-          <IMG src={Image}></IMG>
+          <Col className="bg" span={24} md={12}>
+        
           </Col>
 
       </Row>
