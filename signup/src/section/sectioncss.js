@@ -22,12 +22,12 @@ font-weight:550;
 
 export const Background =styled.div`
 width:100%;
-height:150px;
+height:200px;
 background-color:#014788;
 border-radius:3px;
 margin-top:-80px;
 @media screen and (max-width: 780px) {
-height:620px;
+height:650px;
 } 
 `;
 
