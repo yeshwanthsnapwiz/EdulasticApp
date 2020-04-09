@@ -315,9 +315,7 @@ a {
   font-weight:400;
   font-size:12px;
   color:#434B5D;
- 
 }
-
 `;
 
 
@@ -332,7 +330,6 @@ width:15%;
 export const Background =styled.div`
 width:90%;
 height:230px;
-
 background-color:#E3E3E3;
 border-radius:3px;
 margin-top:-50px;
