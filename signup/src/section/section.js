@@ -11,7 +11,7 @@ export const Section = ({className}) => {
             {/*Heading*/}
           <COL className="caption">
           <h1>Get started with free account!</h1>
-          <p>Join the growing community of teachers who are using Edulastic assessment</p><p> to promote learning</p>
+          <p>Join the growing community of teachers who are using Edulastic assessment<br></br>to promote learning</p>
           </COL>
 
           <Row justify="center">

@@ -29,11 +29,8 @@ border-radius:3px;
 margin-top:-80px;
 @media screen and (max-width: 780px) {
 height:650px;
-<<<<<<< HEAD
+}
 
-=======
->>>>>>> c3975db14da83bbed7b1dacaecebc2d290f4fb66
-} 
 `;
 
 export const ROW=styled(Row)`
@@ -57,7 +54,6 @@ display:flex;
 flex-direction:column;
 min-height:200px;
 justify-content:center;
-}
 h1{
 text-align:center;
 font-size:55px;
@@ -73,7 +69,7 @@ p{
 text-align:center;
 color: #6A737F;
 font-size:16px;
-line-height:1;
+line-height:2;
 font-family: 'Open Sans', sans-serif;
 position:relative;
 top:30px;
