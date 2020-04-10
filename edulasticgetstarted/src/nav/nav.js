@@ -41,6 +41,7 @@ export const Nav = ({className}) => {
 
    <Col>
     <Checkbox type="checkbox" className="toggle" id="toggle" />
+
     <COLLAPSEMENU className="menu-collapse">
     <li><a href="#">COURSES</a></li>
     <li><a href="#">STUDENTS</a></li>
@@ -48,6 +49,7 @@ export const Nav = ({className}) => {
     <li><a href="#">PRICING</a></li>
     <li><a href="#">LOGIN</a></li>
     </COLLAPSEMENU>
+
    </Col>
 
    </Row>
