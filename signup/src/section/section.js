@@ -1,26 +1,26 @@
 import React from 'react'
-import {Button,Background} from './sectioncss'
+import {Button,Background,ROW,COL,ROw,TITLE} from './sectioncss'
 import '../App.css';
 import {Row,Col} from 'antd';
 
 export const Section = ({className}) => {
     return (
        
-        <Row className="ant-layout-content " >
+        <ROw className="ant-layout-content " >
 
             {/*Heading*/}
-          <Col className="caption">
+          <COL className="caption">
           <h1>Get started with free account!</h1>
           <p>Join the growing community of teachers who are using Edulastic assessment</p><p> to promote learning</p>
-          </Col>
+          </COL>
 
           <Row justify="center">
-           <h2>Create Your Free Account</h2>
+           <TITLE>Create Your Free Account</TITLE>
            </Row>
     
              {/*Accounts*/}
 
-           <Row className="card" justify="center" align="middle" >
+           <ROW className="card" justify="center" align="middle" >
            
            <Col  align="middle" span={15} md={7} className="student">
            <Button>STUDENT</Button>
@@ -31,13 +31,13 @@ export const Section = ({className}) => {
            <Col align="middle" span={15}  md={7} className="admin">
            <Button>ADMINISTRATOR</Button>
            </Col>
-           </Row>
+           </ROW>
 
 
           <Background>
           </Background>
 
-        </Row>
+        </ROw>
        
     )
 }
