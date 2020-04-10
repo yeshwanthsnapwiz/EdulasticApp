@@ -101,7 +101,7 @@ export const Label= styled.label`
    border-radius:5px;
    position:absolute;
    top:18px;
-   left:15px;
+   left:12px;
    cursor: pointer;
    display:none;
    .bar1,.bar2,.bar3{

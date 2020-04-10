@@ -10,3 +10,19 @@
        height:50%;
    }
 }
+html,body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+    width:100%;
+}
+*{
+    box-sizing:border-box;
+}
+
+.ant-layout-content
+{
+    height:770px;
+    display:flex;
+    flex-wrap:wrap-reverse;
+}

@@ -41,16 +41,16 @@ export const Section = ({className}) => {
 
         
          <InputGroup>  <Label htmlFor="input">username / email</Label><br></br>
-         <Hashtag src={PREFIXMAil} style={{top:"28px",left:"12px"}}></Hashtag><CustomInput className="input" align="middle" type="email" placeholder="Insert your username or email" name="name" /></InputGroup>
+         <Hashtag src={PREFIXMAil} style={{top:"30px",left:"12px"}}></Hashtag><CustomInput className="input" align="middle" type="email" placeholder="Insert your username or email" name="name" /></InputGroup>
          <InputGroup> <Label htmlFor="classcode">PASSWORD</Label><br></br>
          <Hashtag src={Lock} style={{top:"30px",left:"10px"}}></Hashtag><CustomInput  className="input" align="middle" type="password" placeholder="Insert your Password" name="classcode"  /></InputGroup>
          <ForgotPassword>
-        <label className="label">
-        <Checkbox type="checkbox"  /> 
-        <span className="checkmark"></span>
-        </label>
-        <span className ="rememberme">Remember me</span>
-        <span><a href="#">FORGOT PASSWORD?</a></span>
+         <label className="label">
+         <Checkbox type="checkbox"  /> 
+         <span className="checkmark"></span>
+         </label>
+         <span className ="rememberme">Remember me</span>
+         <span><a href="#">FORGOT PASSWORD?</a></span>
          </ForgotPassword>
 
          <BUTTON>SIGN IN</BUTTON>

@@ -1,6 +1,6 @@
 import React from 'react'
 import 'antd/dist/antd.css';
-import Logo from '../Images/logo.jpg';
+import Logo from '../Images/logo.svg';
 import {LOGO,LI,SIGNUP,Label,COLLAPSEMENU,Checkbox,Ul,UL }from './navcss';
 import {Button, Row,Col} from 'antd';
 
@@ -11,7 +11,7 @@ export const Nav = ({className}) => {
 
 <Row className="menu">
 
-   <Col span={11} md={7}  >
+   <Col span={12} md={7}  >
    <LOGO src={Logo} ></LOGO>
    </Col> 
 
@@ -24,15 +24,15 @@ export const Nav = ({className}) => {
     </Ul>
    </Col>
 
-   <Col span={8} md={7}>
+   <Col span={9} md={7}>
 
     <UL>
     <SIGNUP className="login"><a href="#">Already have an account?</a></SIGNUP>
-    <Button className="signup">SIGNUP</Button>
+    <Button className="signup">LOGIN</Button>
     </UL>
    </Col>
 
-   <Col span={5} md={2}>
+   <Col span={2} md={2}>
     <Label htmlFor="toggle" className="barsa" >         
     <li className="bar1"></li>
     <li className="bar2"></li>
@@ -43,7 +43,6 @@ export const Nav = ({className}) => {
    </Row>
 
     <div>
-
   <Checkbox type="checkbox" className="toggle" id="toggle" />
   <COLLAPSEMENU className="menu-collapse">
     <li><a href="#">COURSES</a></li>
@@ -52,7 +51,6 @@ export const Nav = ({className}) => {
     <li><a href="#">PRICING</a></li>
     <li><a href="#">LOGIN</a></li>
   </COLLAPSEMENU>
-
     </div>
 
   </div>

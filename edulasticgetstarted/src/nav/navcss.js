@@ -5,7 +5,8 @@ export const LOGO=styled.img`
    width:132px;
    height:42px;
    position:relative;
-  
+   top:10px;
+   left:34px;
 `;
 
 export const Ul = styled.ul`
@@ -15,8 +16,8 @@ export const Ul = styled.ul`
    justify-content:space-evenly;
    height:64px;
    top: 23px;
-
 `;
+
 export const UL = styled.ul`
    display:flex;
    flex-direction:row;
@@ -37,8 +38,7 @@ export const UL = styled.ul`
    color:white;
    background-color:#4bb495;
    } 
-}
-  
+} 
 `;
 
 export const LI = styled.li`
@@ -61,6 +61,7 @@ a {
    display:none;
    }
 `;
+
 
 export const LOGIN = styled.ul`
    display:flex;
@@ -99,9 +100,8 @@ export const Label= styled.label`
    border-radius:5px;
    position:absolute;
    top:20px;
-   left:20px;
-   cursor: pointer;
    display:none;
+   cursor: pointer;
    .bar1,.bar2,.bar3{
    list-style-type:none;
    width:25px;
@@ -112,8 +112,9 @@ export const Label= styled.label`
    }
    @media screen and (max-width: 780px) {
    display:block; 
+   left:10px;
    }
- 
+
 `;
 
 export const Checkbox= styled.input`
@@ -123,7 +124,6 @@ export const Checkbox= styled.input`
    visibility:visible;
    opacity:1;
 }
-
 `;
 
 export const COLLAPSEMENU = styled.ul`

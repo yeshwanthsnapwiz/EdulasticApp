@@ -55,7 +55,7 @@ export const Section = ({className}) => {
          <Title className="h2" level={2}>Or create your account </Title>
     
         <InputGroup>   <Label htmlFor="name">Name</Label><br></br>
-        <Hashtag src={PREFIXUSER} style={{top:"32px",left:"8px"}}></Hashtag> <CustomInput className="input" align="middle" type="text" placeholder="Insert your name" name="name"  /></InputGroup>
+         <Hashtag src={PREFIXUSER} style={{top:"32px",left:"8px"}}></Hashtag> <CustomInput className="input" align="middle" type="text" placeholder="Insert your name" name="name"  /></InputGroup>
          <InputGroup>  <Label htmlFor="input">username / email</Label><br></br>
          <Hashtag src={PREFIXMAil} style={{top:"28px",left:"12px"}}></Hashtag><CustomInput className="input" align="middle" type="email" placeholder="Insert your username or email " name="name" /></InputGroup>
 

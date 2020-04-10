@@ -165,7 +165,7 @@ display:inline-block;
 width: 200px;
 height: 30px;
 padding:0.4em;
-margin:0.1em;
+margin:0.3em;
 text-align:center;
 font-size:11px;
 font-family: 'Open Sans', sans-serif;

@@ -11,11 +11,11 @@ export const Nav = ({className}) => {
 
 <Row>
 
-   <Col span={12} md={7}  >
-   <LOGO src={Logo} ></LOGO>
+   <Col span={10} md={8}  >
+    <LOGO src={Logo} ></LOGO>
    </Col> 
 
-   <Col span={0} md={11}>
+   <Col span={0} md={9}>
     <Ul>
     <LI><a href="#">COURSES</a></LI>
     <LI><a href="#">STUDENTS</a></LI>
@@ -24,34 +24,34 @@ export const Nav = ({className}) => {
     </Ul>
    </Col>
 
-   <Col span={9} md={5}>
-
+   <Col span={12} md={5}>
     <UL>
     <SIGNUP className="login"><a href="#">LOGIN</a></SIGNUP>
     <Button className="signup">SIGN UP</Button>
     </UL>
    </Col>
 
-   <Col span={2} md={2}>
+   <Col span={2} md={1}>
     <Label htmlFor="toggle" className="barsa" >         
     <li className="bar1"></li>
     <li className="bar2"></li>
     < li className="bar3"></li>
     </Label>
-  </Col>
+   </Col>
 
-   </Row>
-
-    <div>
-  <Checkbox type="checkbox" className="toggle" id="toggle" />
-  <COLLAPSEMENU className="menu-collapse">
+   <Col>
+    <Checkbox type="checkbox" className="toggle" id="toggle" />
+    <COLLAPSEMENU className="menu-collapse">
     <li><a href="#">COURSES</a></li>
     <li><a href="#">STUDENTS</a></li>
     <li><a href="#">TEACHERS</a></li>
     <li><a href="#">PRICING</a></li>
     <li><a href="#">LOGIN</a></li>
-  </COLLAPSEMENU>
-    </div>
+    </COLLAPSEMENU>
+   </Col>
+
+   </Row>
+
 
   </div>
    
