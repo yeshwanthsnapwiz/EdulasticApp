@@ -41,7 +41,6 @@ export const Nav = ({className}) => {
 
    <Col>
     <Checkbox type="checkbox" className="toggle" id="toggle" />
-
     <COLLAPSEMENU className="menu-collapse">
     <li><a href="#">COURSES</a></li>
     <li><a href="#">STUDENTS</a></li>
