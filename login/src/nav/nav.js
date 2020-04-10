@@ -11,7 +11,7 @@ export const Nav = ({className}) => {
 
 <Row className="menu">
 
-   <Col span={12} md={7}  >
+   <Col span={10} md={6}  >
    <LOGO src={Logo} ></LOGO>
    </Col> 
 
@@ -24,7 +24,7 @@ export const Nav = ({className}) => {
     </Ul>
    </Col>
 
-   <Col span={9} md={7}>
+   <Col span={11} md={7}>
 
     <UL>
     <SIGNUP className="login"><a href="#">Don't have an account yet?</a></SIGNUP>

@@ -11,7 +11,7 @@ text-align:center;
 
 
 export const H1 =styled.h1`
-font-size:45px;
+font-size:40px;
 font-family: 'Open Sans', sans-serif;
 font-weight:bold;
 letter-spacing: -3px;

@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from './nav/nav';
 import {PAGEWRAP} from './background';
-import './App.css';
 import {GlobalStyle} from './Appcss'
 import Section from './section/section';
 

@@ -7,9 +7,10 @@
 }
 @media only screen and (max-width: 780px) {
    .bg { 
-       height:50%;
+       height:37%;
+    }
    }
-}
+
 html,body{
     margin:0px;
     padding:0px;
@@ -22,7 +23,7 @@ html,body{
 
 .ant-layout-content
 {
-    height:770px;
+    height:850px;
     display:flex;
     flex-wrap:wrap-reverse;
    

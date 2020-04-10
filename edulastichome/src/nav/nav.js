@@ -24,7 +24,7 @@ export const Nav = ({className}) => {
     </Ul>
    </Col>
 
-   <Col span={12} md={5}>
+   <Col span={11} md={5}>
     <UL>
     <SIGNUP className="login"><a href="#">LOGIN</a></SIGNUP>
     <Button className="signup">SIGN UP</Button>

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { Row} from 'antd';
 
 
 export const H1 =styled.h1`
@@ -178,7 +178,12 @@ color:white;
 background-color:#014788;
      }
 `;
-
+export const ROW=styled(Row)`
+    height:770px;
+    @media screen and (max-width: 780px) {
+    display:flex;
+    flex-wrap:wrap-reverse;
+`;
 
  
 

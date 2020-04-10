@@ -3,7 +3,6 @@ import {P,BUTTON,SIGNUP,A,DIV,SIGNIN,Li,PRIVACY,FORM,Label,IMG,SIGNINP,LOCKIMG,C
 import  Logo from '../Images/google-btn.svg';
 import  Logoa from '../Images/office.svg';
 import  Lock from '../Images/lock.svg';
-import  PREFIXTAG from '../Images/hash';
 import  PREFIXUSER from '../Images/roundeduser.svg';
 import  PREFIXMAil from '../Images/mail.png';
 import { Row, Col, Typography } from 'antd';
