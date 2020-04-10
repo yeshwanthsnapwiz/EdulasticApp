@@ -29,7 +29,10 @@ border-radius:3px;
 margin-top:-80px;
 @media screen and (max-width: 780px) {
 height:650px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3975db14da83bbed7b1dacaecebc2d290f4fb66
 } 
 `;
 
