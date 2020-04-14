@@ -34,8 +34,8 @@ export const INPUT = () => {
      mode="multiple"
      tagRender={tagRender}
      options={options}
-     prefix={ <SearchOutlined style={{color:"#1AB395"}}/>} 
    />
+   <SearchOutlined style={{color:"#1AB395"}}/>
   
         </div>
     )
