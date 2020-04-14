@@ -2,18 +2,13 @@ import {createGlobalStyle} from 'styled-components';
 import 'antd/dist/antd.css';
 
 export const GlobalStyle = createGlobalStyle`
-  html,body{
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-    width:100%;
-    height:900px;
-   }
-
+  
   *{
     box-sizing:border-box;
   
    }
+  
+
    
    .ant-select{
     font-family: 'Open Sans', sans-serif;
@@ -32,11 +27,55 @@ outline:none;
 box-shadow:none;
 }
 
-.ant-select-dropdown{
-  background-color:"red";
-}
+
+
 .ant-select-selection-placeholder{
+ color:black;
+}
+.ant-select-item{
+
+  &:hover{
+    background-color:#1AB395;
+  }
+}
+element.style {
+    height: 256px;
+    overflow-y: hidden;
+    overflow-anchor: none;
+}
+.ant-select-dropdown {
+  overflow-y:scroll;
+  outline-style: solid;
+outline-color:white;
+outline-width: 8px;
+height:200px;
+::-webkit-scrollbar {
+width: 5px;
+height:5px;
+border-radius:10px;
+position: relative;
+top:20px;
+right:100px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+border-radius:10px;
+}
  
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #E3E3E3; 
+border-radius:20px;
+width: 5px;
+height:5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #E3E3E3; 
+}
 }
 
 `; 

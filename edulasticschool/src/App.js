@@ -1,8 +1,10 @@
 import React from 'react';
 import 'antd/dist/antd.css';
+import './Appstyle.css';
 import {GlobalStyle} from './Appcss';
 import Header from './Header/header';
 import Section from './section/section';
+
 
 
 function App(){

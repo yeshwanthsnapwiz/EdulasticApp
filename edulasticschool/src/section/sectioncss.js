@@ -41,6 +41,7 @@ color: #434B5D;
 text-transform: uppercase;
 opacity: 1;
 }
+
 `;
 export const ICON=styled.img`
 
@@ -50,8 +51,9 @@ width:100%;
 display:flex;
 justify-content:space-between;
 position:relative;
-top:20px;
+top:30px;
 `;
+
 export const A =styled.a`
 width:60%;
 text-decoration:none;
