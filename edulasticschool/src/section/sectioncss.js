@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import { Row,Col } from 'antd';
 
 export const SECTIONWRAP=styled(Row)`
- height:836px; 
+ height:600px; 
  justify-content:center;
  @media only screen and (max-width: 780px) {
-  height:600px;
+  height:500px;
 
 }
 `;
@@ -61,7 +61,7 @@ justify-content:space-between;
 position:relative;
 top:50px;
 text-align:left;
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 992px) {
     width:100%;
   flex-direction:column;
 
@@ -77,6 +77,7 @@ font-size:11px;
 font-weight:400;
 @media only screen and (max-width: 780px) {
 width:100%;  
+
 }
 
 `;
