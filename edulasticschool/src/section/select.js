@@ -10,7 +10,6 @@ function tagRender(props) {
   return (
  
     <TAG  closable={closable} onClose={onClose} style={{ marginRight: "3" ,
-    
     }}>
    {label}
     </TAG>
@@ -61,40 +60,33 @@ border-bottom:1px solid grey;
 
 position: relative;
 &:hover{
- color:"#6A737F";
- .anticon-close{
-
+color:"#6A737F";
+.anticon-close{
 color:white;
 }
-
 }
-
-
-
 `;
 
 export const Options=styled(Option)`
-
-  color:white;
-  
+color:white;
 `;
 
 
 export const TAG=styled(Tag)`
-    height: 30px;
-    color:#434B5D;
-    border-radius:20px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    border:none;
-    font-family: 'Open Sans', sans-serif;
-    font-size:11px;
-    font-weight:400;
-    &:hover{
-      background-color:#013b70;
-      color:white;
-    }
+height: 30px;
+color:#434B5D;
+border-radius:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border:none;
+font-family: 'Open Sans', sans-serif;
+font-size:11px;
+font-weight:400;
+&:hover{
+background-color:#013b70;
+color:white;
+}
 `;
 export const SELECTWRAP=styled.div`
 width:100%;

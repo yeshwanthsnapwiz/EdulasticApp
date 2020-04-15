@@ -1,9 +1,9 @@
 import React from 'react'
-import {Headerwrap,COL,LOGO,PROFILEPIC,PROFILE,DROPDOWNICON,A,CAPTION,NAME,PROFESSION,MENU,COLB} from './headercss';
+import {Headerwrap,LOGO,PROFILEPIC,PROFILE,DROPDOWNICON,A,CAPTION,NAME,PROFESSION,MENU} from './headercss';
 import logo from '../images/logo.svg';
 import profile from '../images/img-profile.png';
 import dropdown from '../images/dropdown-icon.svg';
-
+import { Col} from 'antd';
 const menu = (
   <MENU >
     <MENU.Item >
@@ -18,22 +18,25 @@ const menu = (
 );
 export const Header = ({className}) => {
     return (
+
     <Headerwrap>
-     <COL >
-     <LOGO src={logo}/>
-     </COL>
-     <COLB >
-  <PROFILE overlay={menu}  >
-     <A >
-     <PROFILEPIC src={profile}/>
-     <CAPTION>
-    <NAME>Rob Perterson</NAME>
-    <PROFESSION>TEACHER</PROFESSION>
-     </CAPTION>
-     <DROPDOWNICON className="icon" src={dropdown}/>
-    </A>
-     </PROFILE>
-     </COLB>
+      
+     <Col >
+      <LOGO src={logo}/>
+     </Col>
+
+     <Col >
+       <PROFILE overlay={menu}  >
+         <A >
+         <PROFILEPIC src={profile}/>
+         <CAPTION>
+         <NAME>Rob Perterson</NAME>
+         <PROFESSION>TEACHER</PROFESSION>
+         </CAPTION>
+         <DROPDOWNICON className="icon" src={dropdown}/>
+         </A>
+       </PROFILE>
+     </Col>
     </Headerwrap>
 
     )

@@ -2,22 +2,21 @@ import styled from 'styled-components';
 import { Row,Col } from 'antd';
 
 export const SECTIONWRAP=styled(Row)`
- height:840px; 
- justify-content:center;
- @media only screen and (max-width: 780px) {
-  height:600px;
+height:840px; 
+justify-content:center;
+@media only screen and (max-width: 780px) {
+height:600px;
 }
 `;
 
 export const COL=styled(Col)`
- display:flex;
+display:flex;
 justify-content:center;
 `;
 
 export const DIV=styled.div`
 width:80%;
 height:250px;
-
 position: relative;
 display:flex;
 flex-direction:column;
@@ -54,6 +53,7 @@ opacity: 1;
 export const ICON=styled.img`
 align-self:flex-start;
 `;
+
 export const Div=styled.div`
 width:65%;
 display:flex;
@@ -62,9 +62,8 @@ position:relative;
 top:50px;
 text-align:left;
 @media only screen and (max-width: 992px) {
-    width:100%;
-  flex-direction:column;
-
+width:100%;
+flex-direction:column;
 }
 `;
 
@@ -77,7 +76,5 @@ font-size:11px;
 font-weight:400;
 @media only screen and (max-width: 780px) {
 width:100%;  
-
 }
-
 `;

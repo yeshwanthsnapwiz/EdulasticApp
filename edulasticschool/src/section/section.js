@@ -5,14 +5,15 @@ import INPUT from './select';
 export const Section = () => {
     return (
        <SECTIONWRAP align="middle">
+    
        <COL  span={24} md={12} >
        <DIV>
         <ICON src={icon}/>
         <h5>Join your school community</h5>
         <p>collaborate with your colleagues and more.</p>
        </DIV>
-     
         </COL>
+            
         <COL span={24} md={12}>
         <DIV>
         <h4>SEARCH SCHOOL</h4>
