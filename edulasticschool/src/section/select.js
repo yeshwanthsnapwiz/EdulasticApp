@@ -57,7 +57,7 @@ export const SELECT =styled(Select)`
 width:100%;
 border:none;
 border-bottom:1px solid grey;
-
+font-family: 'Open Sans', sans-serif;
 position: relative;
 &:hover{
 color:"#6A737F";
@@ -84,7 +84,7 @@ font-family: 'Open Sans', sans-serif;
 font-size:11px;
 font-weight:400;
 &:hover{
-background-color:#013b70;
+background-color:#024788;
 color:white;
 }
 `;
