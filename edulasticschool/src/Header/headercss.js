@@ -14,6 +14,7 @@ export const Headerwrap =styled(Row)`
 `;
 
 export const COL =styled(Col)`
+
 `;
 
 export const COLB =styled(Col)`
@@ -88,5 +89,5 @@ line-height:1;
 
 export const MENU=styled(Menu)`
 position:absolute;
-width:200px;
+width:100%;
 `;
