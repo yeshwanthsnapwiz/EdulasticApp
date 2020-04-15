@@ -69,9 +69,8 @@ outline-style: solid;
 outline-color:white;
 outline-width: 8px;
 height:200px;
-&  > *div
- 
 }
+
 ::-webkit-scrollbar {
 width: 5px;
 height:5px;
@@ -99,7 +98,5 @@ height:5px;
 ::-webkit-scrollbar-thumb:hover {
 background: #E3E3E3; 
 }
-}
-
 
 `; 
