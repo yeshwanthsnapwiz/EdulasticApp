@@ -11,6 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-#rc_select_0_list > div {
-  overflow: hidden;
-}

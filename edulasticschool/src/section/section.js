@@ -4,8 +4,8 @@ import icon from '../images/school-community.svg'
 import INPUT from './select';
 export const Section = () => {
     return (
-       <SECTIONWRAP>
-       <COL span={24} md={12} >
+       <SECTIONWRAP align="middle">
+       <COL  span={24} md={12} >
        <DIV>
         <ICON src={icon}/>
         <h5>Join your school community</h5>

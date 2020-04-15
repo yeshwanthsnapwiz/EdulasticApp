@@ -39,6 +39,7 @@ export const LOGO = styled.img`
  height: 43px;
  @media screen and (max-width: 480px) {
  width:100px;
+ left:20px;
 }
 `;
 export const PROFILEPIC = styled.img`

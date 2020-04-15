@@ -4,6 +4,10 @@ import { Row,Col } from 'antd';
 export const SECTIONWRAP=styled(Row)`
  height:836px; 
  justify-content:center;
+ @media only screen and (max-width: 780px) {
+  height:600px;
+
+}
 `;
 export const COL=styled(Col)`
  display:flex;
@@ -13,7 +17,11 @@ justify-content:center;
 export const DIV=styled.div`
 width:80%;
 height:250px;
-background-color:white;
+
+position: relative;
+display:flex;
+flex-direction:column;
+justify-content:center;
 align-self:center;
 h5{
 text-align: left;
@@ -44,21 +52,31 @@ opacity: 1;
 
 `;
 export const ICON=styled.img`
-
+align-self:flex-start;
 `;
 export const Div=styled.div`
-width:100%;
+width:65%;
 display:flex;
 justify-content:space-between;
 position:relative;
-top:30px;
+top:50px;
+text-align:left;
+@media only screen and (max-width: 780px) {
+    width:100%;
+  flex-direction:column;
+
+}
 `;
 
 export const A =styled.a`
-width:60%;
+width:50%;
 text-decoration:none;
 color:"#1AB395";
 font-family: 'Open Sans', sans-serif;
 font-size:11px;
 font-weight:400;
+@media only screen and (max-width: 780px) {
+width:100%;  
+}
+
 `;
