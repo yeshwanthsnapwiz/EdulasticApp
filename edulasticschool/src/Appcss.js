@@ -70,7 +70,8 @@ outline-color:white;
 outline-width: 8px;
 height:200px;
 }
-
+.ant-select-dropdown div{
+&:nth-child(2){
 ::-webkit-scrollbar {
 width: 5px;
 height:5px;
@@ -98,5 +99,6 @@ height:5px;
 ::-webkit-scrollbar-thumb:hover {
 background: #E3E3E3; 
 }
-
+}
+}
 `; 

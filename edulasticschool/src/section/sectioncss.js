@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { Row,Col } from 'antd';
 
 export const SECTIONWRAP=styled(Row)`
- height:600px; 
+ height:840px; 
  justify-content:center;
  @media only screen and (max-width: 780px) {
-  height:500px;
-
+  height:600px;
 }
 `;
+
 export const COL=styled(Col)`
  display:flex;
 justify-content:center;
