@@ -66,18 +66,18 @@ class Edupay extends React.Component {
             </Card>
 
             <Form>
-            <label for="fname">CARD NUMBER</label>
+            <label >CARD NUMBER</label>
             <Inputnumber type="number" placeholder="Insert your card number"></Inputnumber>
 
             <Formgroup justify="space-between">
 
             <Col span={11}>
-            <label for="fname">CARD HOLDER</label>
+            <label >CARD HOLDER</label>
             <Inputnumber type="text"  placeholder="Insert Name On Card"></Inputnumber>
             </Col>
 
            <Col span={6}>
-           <label for="fname">EXPIRES</label>
+           <label >EXPIRES</label>
            < DAtepicker
            placeholder="MM/DD"
           format={"MM/DD"}
@@ -88,7 +88,7 @@ class Edupay extends React.Component {
            </Col>
 
            <Col span={6} >
-           <label for="fname">CVV</label>
+           <label >CVV</label>
            <Inputnumber type="number" placeholder="Insert CVV"></Inputnumber>
            </Col>
 
