@@ -83,6 +83,6 @@ line-height:1;
 
 export const MENU=styled(Menu)`
 width:100%;
-min-width:170px;
+width:170px;
 
 `;

@@ -12,12 +12,12 @@ export const Plan = ({className}) => {
               </Title>
           </Sectionwrap>
           <Plans>
+
               <Free span={20} sm={11} lg={5}>
-                  
                  <Header className="header">
-                  <h5>Free</h5>
+                 <h5>Free</h5>
                  </Header>
-               <Contentsection className="content">
+              <Contentsection className="content">
                  <Content>
                  <p> Lorem ipsum</p> 
                  <p>Lorem ipsum dolor</p> 
@@ -25,11 +25,12 @@ export const Plan = ({className}) => {
                  <p> amt Lorem ipsum</p>
                  </Content>
                  <Edupay></Edupay>
-                 </Contentsection>
+              </Contentsection>
               </Free>
+
               <Trail span={20} sm={11} lg={5}>
               <Header className="header">
-                  <h5>7-day Trial</h5>
+                 <h5>7-day Trial</h5>
                  </Header>
                <Contentsection className="content">
                  <Content>
@@ -44,7 +45,7 @@ export const Plan = ({className}) => {
     
               <Teacher span={20} sm={11} lg={5}>
               <Header className="header">
-                  <h5>Teacher Premium</h5>
+                <h5>Teacher Premium</h5>
                  </Header>
                <Contentsection className="content">
                  <Content>
@@ -58,9 +59,9 @@ export const Plan = ({className}) => {
                  </Contentsection>
               </Teacher>
     
-     <Enterprise span={20} sm={11} lg={5}>
-     <Header className="header">
-                  <h5>Enterprise</h5>
+               <Enterprise span={20} sm={11} lg={5}>
+               <Header className="header">
+                <h5>Enterprise</h5>
                  </Header>
                <Contentsection className="content">
                  <Content>
@@ -72,8 +73,7 @@ export const Plan = ({className}) => {
                  <Edupay></Edupay>
                  </Contentsection>
               </Enterprise>
-    
-    
+
             </Plans>
         </Div>
     )

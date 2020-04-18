@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Row,Col,Button} from 'antd';
+import { Row,Col} from 'antd';
 
 const Onhover=`
 .content{
@@ -79,12 +79,10 @@ align-self:flex-end;
 
 export const Free=styled(Col)`
 height:490px;
-
 .header > h5 {
 ${title};
 color: #5EB500;
 }
-
 &:hover{
 .header{
  background-color:#5EB500;
@@ -92,17 +90,14 @@ ${transition};
 }
 ${Onhover};
 }
-
-
 `;
+
 export const Trail=styled(Col)`
 height:490px;
-
 .header > h5 {
 ${title};
 color: #434B5D;
 }
-
 &:hover{
 .header{
  background-color:#434B5D;
@@ -110,17 +105,14 @@ color: #434B5D;
 }
 ${Onhover};
 }
-
 `;
 
 export const Enterprise=styled(Col)`
 height:490px;
-
 .header > h5 {
 ${title};
 color: #FFA200;
 }
-
 &:hover{
 .header{
 background-color:#FFA200;
@@ -128,20 +120,19 @@ ${transition};
 }
 ${Onhover};
 }
-
 `;
+
 export const Teacher=styled(Col)`
 height:490px;
-
 .header > h5 {
 ${title};
 color: #4E95F3;
-width:80%;
+width:90%;
+text-align:center;
 line-height:1;
 position: relative;
 top:25px;
 }
-
 &:hover{
 .header{
 background-color:#4E95F3;
@@ -171,7 +162,6 @@ position: relative;
 top:5px;
 transition:0.3s all;
 .price {
-text-align: center;
 font-size:33px;
 color: #434B5D;
 font-family: 'Open Sans', sans-serif;
@@ -200,42 +190,5 @@ letter-spacing: 0px;
 color: #6A737F;
 opacity: 1;
 line-height:1.2;
-}
-`;
-
-export const Selectbutton=styled(Button)`
-width:85%;
-height: 40px;
-border: 1px solid #1AB395;
-color: #1AB395;
-border-radius: 4px;
-opacity: 1;
-transition:0.1s all;
-position: relative;
-bottom:20px;
-&:hover{
-background-color:#1AB395;
-color:#FFFFFF;
-}
-`;
-
-export const Trailheader=styled.div`
-border: 1px solid #DADAE4;
-border-radius: 5px;
-opacity: 1;
-height: 90px;
-width:100%;
-h5{
-margin:auto;
-width:70%;
-height: 34px;
-position: relative;
-top:20px;
-text-align: left;
-font-family: 'Open Sans', sans-serif;
-font-size:25px;
-letter-spacing: -1.25px;
-color: #5EB500;
-opacity: 1;
 }
 `;

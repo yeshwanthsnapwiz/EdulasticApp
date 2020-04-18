@@ -200,6 +200,7 @@ export const Selectbutton=styled(Button)`
 width:185px;
 height: 40px;
 border: 1px solid #1AB395;
+font-family: 'Open Sans', sans-serif;
 color: #1AB395;
 border-radius: 4px;
 opacity: 1;

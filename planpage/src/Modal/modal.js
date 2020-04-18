@@ -32,38 +32,36 @@ class Edupay extends React.Component {
          
         >
           <Row>
-
-            <Column>
+           <Column>
             <h5>Edulastic Payment Service</h5>
             <p>Lorem ipsum dolor sit amet, lorem ipsum dolor sit amen.</p>
-            </Column>
+           </Column>
 
-            <Card>
+           <Card>
             <Cardwrap>
             <DIV>
-
-             <Edulogo src={logo}/>
-             <Cardlogo src={card}/>
-
+              <Edulogo src={logo}/>
+              <Cardlogo src={card}/>
             </DIV>
-              <Ul>
+
+            <Ul>
               <li>****</li>
               <li>****</li>
               <li>****</li>
               <li>1991</li>
-              </Ul>
+            </Ul>
 
 
-               <INFO>
-                <div><h5>CARD HOLDER</h5>
-                <h4>Rob Peterson</h4></div>
-                <div><h5>EXPIRES</h5>
-                <h4>06/26</h4></div>
-                <div><h5>CVV</h5>
-                <h4>091</h4></div>
-                </INFO>
+             <INFO>
+              <div><h5>CARD HOLDER</h5>
+              <h4>Rob Peterson</h4></div>
+              <div><h5>EXPIRES</h5>
+              <h4>06/26</h4></div>
+              <div><h5>CVV</h5>
+              <h4>091</h4></div>
+            </INFO>
             </Cardwrap>
-            </Card>
+           </Card>
 
             <Form>
             <label >CARD NUMBER</label>
@@ -76,33 +74,28 @@ class Edupay extends React.Component {
             <Inputnumber type="text"  placeholder="Insert Name On Card"></Inputnumber>
             </Col>
 
-           <Col span={6}>
-           <label >EXPIRES</label>
-           < DAtepicker
-           placeholder="MM/DD"
-          format={"MM/DD"}
-            suffixIcon
-            className="card"
-      
+            <Col span={6}>
+             <label >EXPIRES</label>
+             < DAtepicker
+             placeholder="MM/DD"
+             format={"MM/DD"}
+             suffixIcon
+             className="card"
            />
-           </Col>
+             </Col>
 
-           <Col span={6} >
-           <label >CVV</label>
-           <Inputnumber type="number" placeholder="Insert CVV"></Inputnumber>
-           </Col>
+            <Col span={6} >
+            <label >CVV</label>
+            <Inputnumber type="number" placeholder="Insert CVV"></Inputnumber>
+            </Col>
 
-          </Formgroup>
-
+            </Formgroup>
             <Paybutton>
             <BUTTON>PAY $99/YEAR</BUTTON>
             </Paybutton>
-
-          </Form>
-            
+            </Form>
           </Row>
           
-         
         </Modalwrap>
       </div>
     );
