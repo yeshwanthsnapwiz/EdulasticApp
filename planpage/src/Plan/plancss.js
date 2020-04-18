@@ -165,7 +165,6 @@ transition:0.3s all;
 font-size:33px;
 color: #434B5D;
 font-family: 'Open Sans', sans-serif;
-font-weight:bold;
 opacity: 1;
 letter-spacing: -1.6px;
 color: #434B5D;
@@ -186,9 +185,7 @@ font-size:14px;
 font-family: 'Open Sans', sans-serif;
 list-style-type:none;
 text-align:left;
-letter-spacing: 0px;
 color: #6A737F;
-opacity: 1;
 line-height:1.2;
 }
 `;
