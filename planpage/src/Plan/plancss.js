@@ -47,7 +47,7 @@ justify-content:center;
 export const Title=styled(Col)`
 position: relative;
 top:82px;
-width:80%;
+width:90%;
 height:100px;
 `;
 
@@ -72,7 +72,7 @@ opacity: 1;
 
 export const Plans=styled(Row)`
 justify-content:center;
-width:93%;
+width:98%;
 justify-content:space-evenly;
 align-self:flex-end;
 `;

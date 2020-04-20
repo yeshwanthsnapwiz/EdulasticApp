@@ -22,11 +22,12 @@ class Congratulations extends React.Component {
         SELECT PLAN
         </Selectbutton>
         <Modalwrap
-           style={{ top: 100 }}
+           style={{ top: 100, right:5 }}
           visible={this.state.modal2Visible}
           onOk={() => this.setModal2Visible(false)}
           onCancel={() => this.setModal2Visible(false)}
           footer={null}
+  
          
         >
           <Content>

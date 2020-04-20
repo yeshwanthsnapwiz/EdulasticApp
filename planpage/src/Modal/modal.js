@@ -25,12 +25,10 @@ class Edupay extends React.Component {
         SELECT PLAN
         </Selectbutton >
         <Modalwrap
-           style={{ top: 20 }}
           visible={this.state.modal2Visible}
           onOk={() => this.setModal2Visible(false)}
           onCancel={() => this.setModal2Visible(false)}
           footer={null}
-         
         >
           <Row>
            <Column>
@@ -70,7 +68,7 @@ class Edupay extends React.Component {
 
             <Formgroup justify="space-between">
 
-            <Col span={11}>
+            <Col span={11} >
             <label >CARD HOLDER</label>
             <Inputnumber type="text"  placeholder="Insert Name On Card"></Inputnumber>
             </Col>
