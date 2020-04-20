@@ -160,7 +160,7 @@ color: #FFFFFF;
 text-transform: uppercase;
 opacity: 1;
 font-family: 'Open Sans', sans-serif;
-font-size:12px;
+font-size:10px;
 font-weight:bold;
 }
 position: relative;
