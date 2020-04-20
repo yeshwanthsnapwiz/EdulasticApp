@@ -1,8 +1,9 @@
 import React from 'react';
 import {Row,Col} from 'antd';
-import {Modalwrap,Column,Card,Cardwrap,DIV,Edulogo,Cardlogo,Ul,INFO,Form,Inputnumber,Formgroup,Paybutton,BUTTON,DAtepicker,Selectbutton } from './modalcss';
+import {Modalwrap,Column,Card,Cardwrap,DIV,Edulogo,Cardlogo,Ul,INFO,Form,Inputnumber,Formgroup,Paybutton,DAtepicker,Selectbutton } from './modalcss';
 import logo from './Images/Spark_Edulastic.svg';
 import card from './Images/mastercard.png';
+import Congratulations from '../Modal2/modal';
 
 
 class Edupay extends React.Component {
@@ -91,7 +92,7 @@ class Edupay extends React.Component {
 
             </Formgroup>
             <Paybutton>
-            <BUTTON>PAY $99/YEAR</BUTTON>
+            <Congratulations >PAY $99/YEAR</Congratulations >
             </Paybutton>
             </Form>
           </Row>
