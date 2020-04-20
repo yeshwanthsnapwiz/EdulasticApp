@@ -125,7 +125,6 @@ export const Checkbox= styled.input`
    visibility:visible;
    opacity:1;
 }
-
 `;
 
 export const COLLAPSEMENU = styled.ul`
