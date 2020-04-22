@@ -6,8 +6,8 @@ export const GlobalStyle =createGlobalStyle`
 html,body{
     margin:0px;
     padding:0px;
-    overflow-x:hidden;
     width:100%;
+    height:900px;
 }
 *{
     box-sizing:border-box;
@@ -27,6 +27,9 @@ opacity: 1;
 position: relative;
 top:20px;
   }
+}
+.ant-layout-content{
+  height:840px;
 }
 
 

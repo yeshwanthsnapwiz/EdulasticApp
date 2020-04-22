@@ -308,7 +308,7 @@ a {
   width:35%;
   position:absolute;
   top:2px;
- left:50px;
+  left:50px;
   text-transform:uppercase;
   font-size:10px;
   font-family: 'Open Sans', sans-serif;

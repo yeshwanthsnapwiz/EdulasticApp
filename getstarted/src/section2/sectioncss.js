@@ -23,10 +23,6 @@ export const IMG =styled.img`
 
 export const DIV =styled.div`
     width:100%;
-    align-self:center;
-    position:relative;
-    
-
 `;
 
 export const A =styled.a`

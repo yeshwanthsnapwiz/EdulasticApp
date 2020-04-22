@@ -92,4 +92,29 @@ background: #E3E3E3;
 }
 }
 }
+.carousel {
+     display:flex;
+     align-items:center;
+     justify-content:center;
+     
+ }
+ .ant-carousel{
+   width:100%;
+   text-align:center;
+ }
+ .ant-carousel .slick-slide {
+  height:80px;
+  overflow: hidden;
+
+}
+
+
+.ant-carousel .slick-slide {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content:center;
+}
+
 `; 

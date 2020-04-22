@@ -3,9 +3,9 @@ import styled  from 'styled-components';
 
 export const LOGO=styled.img`
    width:132px;
-   height:42px;
+   height: 40px;
    position:relative;
-   top:10px;
+
    left:34px;
 `;
 
@@ -16,15 +16,20 @@ export const Ul = styled.ul`
    justify-content:space-evenly;
    height:64px;
    top: 23px;
-
 `;
+
 export const UL = styled.ul`
    display:flex;
    flex-direction:row;
    height:64px;
    align-content:center;
    justify-content:space-between;
-   .signup{
+   @media screen and (max-width: 780px) {
+   display:none;
+   }
+`;
+
+export const Signup=styled.button`
    font-size:12px;
    width:132px;
    height:40px;
@@ -34,13 +39,17 @@ export const UL = styled.ul`
    border-radius:3px;
    transition: all 0.1s;
    align-self:center;
+   background:white;
    &:hover {
    color:white;
    background-color:#4bb495;
    } 
-}
-  
+   @media screen and (max-width: 780px) {
+   display:block; 
+   left:10px;
+   }
 `;
+
 
 export const LI = styled.li`
    list-style-type:none;
@@ -63,6 +72,7 @@ a {
    }
 `;
 
+
 export const LOGIN = styled.ul`
    display:flex;
    height:64px;
@@ -70,7 +80,7 @@ export const LOGIN = styled.ul`
 `;
 
 
-export const SIGNUP= styled.li`
+export const Login= styled.li`
    list-style-type:none;
    align-self:center;
    top: 22px;
@@ -99,10 +109,9 @@ export const Label= styled.label`
    height:25px;
    border-radius:5px;
    position:absolute;
-   top:18px;
-   left:3px;
-   cursor: pointer;
+   top:20px;
    display:none;
+   cursor: pointer;
    .bar1,.bar2,.bar3{
    list-style-type:none;
    width:25px;
@@ -113,8 +122,9 @@ export const Label= styled.label`
    }
    @media screen and (max-width: 780px) {
    display:block; 
+   left:10px;
    }
- 
+
 `;
 
 export const Checkbox= styled.input`
@@ -124,25 +134,21 @@ export const Checkbox= styled.input`
    visibility:visible;
    opacity:1;
 }
-
 `;
 
-export const COLLAPSEMENU = styled.ul`
+export const COLLAPSEMENU = styled.div`
+   width:100%;
+   height:300px;
    display:flex;
    flex-direction:column;
+   justify-content:center;
+   align-items:center;
    justify-content:space-around;
-   width:100%;
    background-color:white;
-   height:0px;
-   visibility: hidden;
-   transition: 0.2s ease-in;
-   opacity:0;
-   background-color:white;
-@media screen and (min-width: 781px) {
-   display:none;
-   }
+  
 li {
    list-style-type:none;
+
 }
 a{
    font-size:11px;

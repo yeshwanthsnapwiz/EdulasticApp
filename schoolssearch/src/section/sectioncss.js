@@ -2,15 +2,16 @@ import styled from 'styled-components';
 import { Row,Col } from 'antd';
 
 export const SECTIONWRAP=styled(Row)`
-height:840px; 
+height:900px; 
 justify-content:center;
 @media only screen and (max-width: 780px) {
-height:600px;
+height:800px;
 }
 `;
 
 export const COL=styled(Col)`
 display:flex;
+flex-direction:column;
 justify-content:center;
 `;
 
@@ -55,7 +56,7 @@ align-self:flex-start;
 `;
 
 export const Div=styled.div`
-width:65%;
+width:80%;
 display:flex;
 justify-content:space-between;
 position:relative;

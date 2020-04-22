@@ -13,6 +13,9 @@ html,body{
     box-sizing:border-box;
 }
 }
+.navbar{
+    height:43px
+}
 .ant-layout-content {
    min-height: 600px;
 }

@@ -3,7 +3,7 @@ import styled  from 'styled-components';
 
 export const LOGO=styled.img`
    width:132px;
-   height:42px;
+   height: 43px;
    position:relative;
    top:10px;
    left:34px;
@@ -24,7 +24,12 @@ export const UL = styled.ul`
    height:64px;
    align-content:center;
    justify-content:space-between;
-   .signup{
+   @media screen and (max-width: 780px) {
+   display:none;
+   }
+`;
+
+export const Signup=styled.button`
    font-size:12px;
    width:132px;
    height:40px;
@@ -34,12 +39,17 @@ export const UL = styled.ul`
    border-radius:3px;
    transition: all 0.1s;
    align-self:center;
+   background:white;
    &:hover {
    color:white;
    background-color:#4bb495;
    } 
-} 
+   @media screen and (max-width: 780px) {
+   display:block; 
+   left:10px;
+   }
 `;
+
 
 export const LI = styled.li`
    list-style-type:none;
@@ -70,7 +80,7 @@ export const LOGIN = styled.ul`
 `;
 
 
-export const SIGNUP= styled.li`
+export const Login= styled.li`
    list-style-type:none;
    align-self:center;
    top: 22px;
@@ -126,22 +136,19 @@ export const Checkbox= styled.input`
 }
 `;
 
-export const COLLAPSEMENU = styled.ul`
+export const COLLAPSEMENU = styled.div`
+   width:100%;
+   height:300px;
    display:flex;
    flex-direction:column;
+   justify-content:center;
+   align-items:center;
    justify-content:space-around;
-   width:100%;
    background-color:white;
-   height:0px;
-   visibility: hidden;
-   transition: 0.2s ease-in;
-   opacity:0;
-   background-color:white;
-@media screen and (min-width: 781px) {
-   display:none;
-   }
+  
 li {
    list-style-type:none;
+
 }
 a{
    font-size:11px;

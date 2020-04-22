@@ -13,7 +13,7 @@ html,body{
     box-sizing:border-box;
 }
 
-}
+
 .ant-layout-content {
    min-height: 600px;
 }
@@ -31,8 +31,8 @@ opacity: 1;
 @media screen and (max-width: 780px) {
 position: relative;
 top:20px;
-  }
+  
 }
-
+}
 `;
 

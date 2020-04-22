@@ -2,6 +2,7 @@ import React from 'react'
 import {SECTIONWRAP,COL,DIV,ICON,Div,A} from './sectioncss'
 import icon from '../images/school-community.svg'
 import INPUT from './select';
+import CarouselComponent  from '../Carousel/carousel';
 export const Section = () => {
     return (
        <SECTIONWRAP align="middle">
@@ -23,7 +24,8 @@ export const Section = () => {
             <A style={{color:"#1AB395"}}>I WANT HOME SCHOOL >></A>
         </Div>
        </DIV>
-       
+    
+       <CarouselComponent ></CarouselComponent>
         </COL>
        </SECTIONWRAP> 
     )

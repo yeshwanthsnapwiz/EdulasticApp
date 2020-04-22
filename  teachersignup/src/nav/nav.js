@@ -1,21 +1,27 @@
 import React from 'react'
 import 'antd/dist/antd.css';
 import Logo from '../Images/logo.svg';
-import {LOGO,LI,SIGNUP,Label,COLLAPSEMENU,Checkbox,Ul,UL }from './navcss';
-import {Button, Row,Col} from 'antd';
+import {LOGO,LI,Ul,UL,Signup,Login  }from './navcss';
+import {Row,Col} from 'antd';
+import Responsivenavbar from './responsivenavbar'
+
 
 
 export const Nav = ({className}) => {
     return (
 <div>
 
-<Row className="menu">
+<Row className="navbar" >
 
-   <Col span={10} md={5}  >
-   <LOGO src={Logo} ></LOGO>
+   {/*Logo*/}
+
+   <Col span={20} md={5}  >
+    <LOGO src={Logo} ></LOGO>
    </Col> 
 
-   <Col span={0} md={10}>
+    {/*Menu*/}
+
+   <Col span={0} md={11}>
     <Ul>
     <LI><a href="#">COURSES</a></LI>
     <LI><a href="#">STUDENTS</a></LI>
@@ -24,34 +30,23 @@ export const Nav = ({className}) => {
     </Ul>
    </Col>
 
-   <Col span={11} md={7}>
+    {/*Login /signup*/}
 
+   <Col span={0} md={7}>
     <UL>
-    <SIGNUP className="login"><a href="#">Already have an account?</a></SIGNUP>
-    <Button className="signup">LOGIN</Button>
+    <Login className="login"><a href="#">Already have an account?</a></Login>
+    <Signup className="signup">SIGN UP</Signup>
     </UL>
    </Col>
 
-   <Col span={2} md={2}>
-    <Label htmlFor="toggle" className="barsa" >         
-    <li className="bar1"></li>
-    <li className="bar2"></li>
-    < li className="bar3"></li>
-    </Label>
-  </Col>
+    {/*Responsive navbar*/}
+
+   <Col span={2} md={1}>
+   <Responsivenavbar></Responsivenavbar>
+   </Col>
 
    </Row>
 
-    <div>
-  <Checkbox type="checkbox" className="toggle" id="toggle" />
-  <COLLAPSEMENU className="menu-collapse">
-    <li><a href="#">COURSES</a></li>
-    <li><a href="#">STUDENTS</a></li>
-    <li><a href="#">TEACHERS</a></li>
-    <li><a href="#">PRICING</a></li>
-    <li><a href="#">LOGIN</a></li>
-  </COLLAPSEMENU>
-    </div>
 
   </div>
    

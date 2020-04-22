@@ -12,6 +12,7 @@ function App(){
   <GlobalStyle></GlobalStyle>
   <Header></Header>
   <Section></Section>
+  
     </div>
   );
 }
